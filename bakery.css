@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background-color: #f5deb3;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Products */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 220px;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* About */
+.about {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
